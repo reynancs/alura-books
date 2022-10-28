@@ -4,7 +4,6 @@ Utilizar o Docker-Compose em um único arquivo com extensão `.yml` para definir
 
 ## :pushpin: Descrição
 Está prática é utilizando um arquivo `docker-compose` para criar e executar dois containers: um com uma aplicação web `alura-books` e outro para banco de dados mongoDB `meu-mongo` além de uma network definida como `compose-bridge` o qual estarão se comunicando através da porta 3000.
-![Books Store](image.png)
 
 
 ## :computer: Como rodar a aplicação
@@ -16,6 +15,9 @@ Está prática é utilizando um arquivo `docker-compose` para criar e executar d
 Outros comandos:
 - `docker compose ps`: Lista os serviços do compose que foram criados
 - `docker-compose down`: Remove os serviços de containers e rede que foram criados
+
+## Deploy da Aplicação
+![Books_Store](https://user-images.githubusercontent.com/97552106/198642524-c0eef2ec-6135-4660-b065-745231e87b54.png)
 
 
 
